@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/BookingService/" />
+  <Folder Name="/BookingService/Adapters/">
+    <Project Path="BookingService/Adapters/HotelBooking.Data/HotelBooking.Data.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Consumers/">
+    <Project Path="BookingService/Consumers/HotelBooking.Api/HotelBooking.Api.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Core/" />
+  <Folder Name="/BookingService/Core/Application/">
+    <Project Path="BookingService/Core/Application/HotelBooking.Application/HotelBooking.Application.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Core/Domain/">
+    <Project Path="BookingService/Core/Domain/HotelBooking.Domain/HotelBooking.Domain.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Tests/" />
+  <Folder Name="/BookingService/Tests/Adapters/">
+    <Project Path="BookingService/Tests/Adapters/HotelBooking.AdaptersTests/HotelBooking.AdaptersTests.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Tests/Application/">
+    <Project Path="BookingService/Tests/Application/HotelBooking.ApplicationTests/HotelBooking.ApplicationTests.csproj" />
+  </Folder>
+  <Folder Name="/BookingService/Tests/Domain/">
+    <Project Path="BookingService/Tests/Domain/HotelBooking.DomainTests/HotelBooking.DomainTests.csproj" />
+  </Folder>
+  <Folder Name="/PaymentService/" />
+</Solution>
