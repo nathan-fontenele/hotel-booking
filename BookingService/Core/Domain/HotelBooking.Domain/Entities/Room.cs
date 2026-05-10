@@ -14,7 +14,7 @@ public class Room
     {
         get
         {
-            if (!InMaintenance || HasGuest) return false;
+            if (InMaintenance || HasGuest) return false;
             
             return true;
         }
